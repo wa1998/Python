@@ -1,0 +1,16 @@
+#Atributos de classe
+
+class A:
+    vc = 123 #variável diretamente da classe
+
+    def __init__(self):
+        pass
+
+a1 = A()
+a2 = A()
+#A.vc = 'Alterado'
+#a1.vc = 321 #não alterando o valor da instancia, mas sim criando um valor.
+
+print(a1.vc) #executando direto da instancia =
+print(a2.vc)
+print(A.vc)
